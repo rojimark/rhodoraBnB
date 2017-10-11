@@ -77,7 +77,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Family Room<i class="material-icons right">close</i></span>
-      <p>Comfortable room with cozy bed and veranda overlooking the city. Each room is air conditioned and has a flat-screen TV with cable channels.</p>
+      <p>Comfortable room with cozy bed and veranda overlooking the city. Each room is air-conditioned and has a flat-screen TV with cable channels.</p>
       <hr>
       <p>
         Php x,xxx.xx /night – Good for up to 4 persons (maximum of 3 with extra mattress at Pxxx/night) 

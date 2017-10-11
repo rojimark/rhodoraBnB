@@ -129,7 +129,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "card-title grey-text text-darken-4"
   }, [_vm._v("Family Room"), _c('i', {
     staticClass: "material-icons right"
-  }, [_vm._v("close")])]), _vm._v(" "), _c('p', [_vm._v("Comfortable room with cozy bed and veranda overlooking the city. Each room is air conditioned and has a flat-screen TV with cable channels.")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('p', [_vm._v("\n        Php x,xxx.xx /night – Good for up to 4 persons (maximum of 3 with extra mattress at Pxxx/night) \n      ")])])])])])])
+  }, [_vm._v("close")])]), _vm._v(" "), _c('p', [_vm._v("Comfortable room with cozy bed and veranda overlooking the city. Each room is air-conditioned and has a flat-screen TV with cable channels.")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('p', [_vm._v("\n        Php x,xxx.xx /night – Good for up to 4 persons (maximum of 3 with extra mattress at Pxxx/night) \n      ")])])])])])])
 }]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -926,4 +926,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.32b515f9394df0407cd0.js.map
+//# sourceMappingURL=app.195473ac072383015cc6.js.map
