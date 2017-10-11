@@ -30,33 +30,6 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
   }, [_c('img', {
     staticClass: "activator",
     attrs: {
-      "src": __webpack_require__("JK2Q")
-    }
-  })]), _vm._v(" "), _c('div', {
-    staticClass: "card-content"
-  }, [_c('span', {
-    staticClass: "card-title activator grey-text text-darken-4"
-  }, [_vm._v("Sunrise View Room"), _c('i', {
-    staticClass: "material-icons right"
-  }, [_vm._v("more_vert")])]), _vm._v(" "), _c('p', [_c('a', {
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("Book this room")])])]), _vm._v(" "), _c('div', {
-    staticClass: "card-reveal"
-  }, [_c('span', {
-    staticClass: "card-title grey-text text-darken-4"
-  }, [_vm._v("Sunrise View Room"), _c('i', {
-    staticClass: "material-icons right"
-  }, [_vm._v("close")])]), _vm._v(" "), _c('p', [_vm._v("Wake up to the golden sunrise streaming through your window- a promise of a great day of fun in the sun.")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('p', [_vm._v("Php x,xxx.xx /night – Good for 2 persons (maximum of 4 with extra mattress at P5xx/night)")])])])]), _vm._v(" "), _c('div', {
-    staticClass: "col s12 m6"
-  }, [_c('div', {
-    staticClass: "card"
-  }, [_c('div', {
-    staticClass: "card-image waves-effect waves-block waves-light"
-  }, [_c('img', {
-    staticClass: "activator",
-    attrs: {
       "src": __webpack_require__("ef20")
     }
   })]), _vm._v(" "), _c('div', {
@@ -76,6 +49,33 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
   }, [_vm._v("Garden View Room"), _c('i', {
     staticClass: "material-icons right"
   }, [_vm._v("close")])]), _vm._v(" "), _c('p', [_vm._v("Feast on a view of garden blooms and lush greens that cool your eyes and mind.")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('p', [_vm._v("Php x,xxx.xx /night – Good for 2 persons (maximum of 3 with extra mattress at Pxx/night)")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "col s12 m6"
+  }, [_c('div', {
+    staticClass: "card"
+  }, [_c('div', {
+    staticClass: "card-image waves-effect waves-block waves-light"
+  }, [_c('img', {
+    staticClass: "activator",
+    attrs: {
+      "src": __webpack_require__("JK2Q")
+    }
+  })]), _vm._v(" "), _c('div', {
+    staticClass: "card-content"
+  }, [_c('span', {
+    staticClass: "card-title activator grey-text text-darken-4"
+  }, [_vm._v("Sunrise View Room"), _c('i', {
+    staticClass: "material-icons right"
+  }, [_vm._v("more_vert")])]), _vm._v(" "), _c('p', [_c('a', {
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("Book this room")])])]), _vm._v(" "), _c('div', {
+    staticClass: "card-reveal"
+  }, [_c('span', {
+    staticClass: "card-title grey-text text-darken-4"
+  }, [_vm._v("Sunrise View Room"), _c('i', {
+    staticClass: "material-icons right"
+  }, [_vm._v("close")])]), _vm._v(" "), _c('p', [_vm._v("Wake up to the golden sunrise streaming through your window- a promise of a great day of fun in the sun.")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('p', [_vm._v("Php x,xxx.xx /night – Good for 2 persons (maximum of 4 with extra mattress at P5xx/night)")])])])]), _vm._v(" "), _c('div', {
     staticClass: "col s12 m6"
   }, [_c('div', {
     staticClass: "card"
@@ -313,6 +313,9 @@ module.exports = __webpack_require__.p + "static/img/SampleRoom3.c0d0d48.jpg";
 /***/ "Axgb":
 /***/ (function(module, exports) {
 
+//
+//
+//
 //
 //
 //
@@ -926,4 +929,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.32b515f9394df0407cd0.js.map
+//# sourceMappingURL=app.e4eefc5c862ecef6d637.js.map
