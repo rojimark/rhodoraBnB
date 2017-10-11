@@ -306,7 +306,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ "AAme":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/img/SampleRoom3.2eacec6.jpg";
+module.exports = __webpack_require__.p + "static/img/SampleRoom3.c0d0d48.jpg";
 
 /***/ }),
 
@@ -926,4 +926,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.678d3015516499b342a2.js.map
+//# sourceMappingURL=app.32b515f9394df0407cd0.js.map
