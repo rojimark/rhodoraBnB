@@ -1,8 +1,9 @@
 <template>
 <div class="rooms">
   <div class="roomintro">
-       <h5>Take a peek at each of our rooms. Whichever one you choose assures utter comfort we believe you deserve to have.
-      </h5>
+       <h3>Take a peek at each of our rooms.</h3>
+       <h3> Whichever one you choose assures utter comfort we believe you deserve to have.
+      </h3>
   </div>
  
 	<div class="row">
@@ -99,6 +100,9 @@
 </script>
 
 <style scoped>
-
+.roomintro h3{
+  font-family: 'Niconne', cursive;
+  color: gray;
+}
 
 </style>
