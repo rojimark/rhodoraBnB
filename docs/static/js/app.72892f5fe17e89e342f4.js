@@ -19,7 +19,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "rooms"
   }, [_c('div', {
     staticClass: "roomintro"
-  }, [_c('h5', [_vm._v("Take a peek at each of our rooms. Whichever one you choose assures utter comfort we believe you deserve to have.\n      ")])]), _vm._v(" "), _c('div', {
+  }, [_c('h3', [_vm._v("Take a peek at each of our rooms.")]), _vm._v(" "), _c('h3', [_vm._v(" Whichever one you choose assures utter comfort we believe you deserve to have.\n      ")])]), _vm._v(" "), _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col s12 m6"
@@ -139,6 +139,76 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ "0iGR":
 /***/ (function(module, exports) {
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -277,7 +347,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "footer-copyrightaw"
   }, [_c('div', {
     staticClass: "container"
-  }, [_vm._v("\n          © 2017 Copyright Text\n          "), _c('a', {
+  }, [_vm._v("\n          © 2017 Rhodora Bed and Breakfast. All Rights Reserved.\n          "), _c('a', {
     staticClass: "grey-text text-lighten-4 right",
     attrs: {
       "href": "#!"
@@ -313,6 +383,7 @@ module.exports = __webpack_require__.p + "static/img/SampleRoom3.c0d0d48.jpg";
 /***/ "Axgb":
 /***/ (function(module, exports) {
 
+//
 //
 //
 //
@@ -547,7 +618,9 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
   return _vm._m(0)
 }
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('p', [_vm._v("\n\t\tAre you visiting the Queen City of the South - Cebu? \n\nTake a few minutes ride from the airport and relax at this very affordable yet classy mix of Modern and Spanish. Experience this authentic Hispanic ancestral house of that offers a homey ambiance for all its guests. \n\t")]), _vm._v(" "), _c('iframe', {
+  return _c('div', {
+    staticClass: "about"
+  }, [_c('h2', [_vm._v("Are you visiting the Queen City of the South - Cebu? ")]), _vm._v(" "), _c('h6', [_vm._v("\n\tTake a few minutes ride from the airport and relax at this very affordable yet classy mix of Modern and Spanish. Experience this authentic Hispanic ancestral house of that offers a homey ambiance for all its guests. \n")]), _vm._v(" "), _c('h5', [_vm._v("INTRODUCTION")]), _vm._v(" "), _c('p', [_vm._v("\n\t Rhodora Bed and Breakfast is a story awaiting your unraveling – your story. It begins the moment you set foot on the resort where smiling, friendly, and hospitality celebrate your arrival. How each page turns is your call. Set in lush, tropical greenery, you have found the right place to unwind and let the aesthetic scenery soothe your senses. Anika offers a good variety of options for you to live your story that you want to tell and re-tell.\n")]), _vm._v(" "), _c('h5', [_vm._v("BACKGROUND")]), _vm._v(" "), _c('p', [_vm._v("\n\tRhodora Bed and Breakfast is owned by a family who acquired the property.  Through the years, the family had often used the property for private gatherings and functions with and for friends. However, they eventually thought the place was too good not to share. So began the concept of opening a commercial apartel.\n\tThe owner wanted to develop their property that would reflect their support to environment conservation with a concept that would harmoniously mix both quaint and modern fixtures. They came up with a lay-out of air-conditioned rooms fashioned from up-cycled cargo containers. It has been designed to withstand natural calamities such as typhoons and earthquakes.\n\t\n")]), _vm._v(" "), _c('h5', [_vm._v("OUR COMMITMENT")]), _vm._v(" "), _c('p', [_vm._v("\n\tWe are committed to the principles of integrity, professionalism and excellence in all our undertakings. We recognize our responsibility to enhance and promote the development of our people, community and environment.\n\tAll of our employees are dedicated to keeping our guest’s getaways generate a lifetime of wonderful memories.\n")]), _vm._v(" "), _c('p'), _vm._v(" "), _c('iframe', {
     staticStyle: {
       "border": "0"
     },
@@ -674,9 +747,83 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', [_vm._v("\n\tCome and visit Rhodora Inn. For bookings, pls contact 0947-8969558.\n\nRhodoraBedAndBreakfast\n")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('div', {
+    staticClass: "contact-form"
+  }, [_c('div', {
+    staticClass: "row"
+  }, [_c('form', {
+    staticClass: "col s12 m8"
+  }, [_c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "input-field col s12 m12"
+  }, [_c('i', {
+    staticClass: "material-icons prefix"
+  }, [_vm._v("account_circle")]), _vm._v(" "), _c('input', {
+    staticClass: "validate",
+    attrs: {
+      "placeholder": "",
+      "id": "name",
+      "type": "text"
+    }
+  }), _vm._v(" "), _c('label', {
+    attrs: {
+      "for": "name"
+    }
+  }, [_vm._v("Name")])])]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "input-field col s12 m12"
+  }, [_c('i', {
+    staticClass: "material-icons prefix"
+  }, [_vm._v("email")]), _vm._v(" "), _c('input', {
+    staticClass: "validate",
+    attrs: {
+      "id": "email",
+      "type": "email"
+    }
+  }), _vm._v(" "), _c('label', {
+    attrs: {
+      "for": "email",
+      "data-error": "Invalid email address",
+      "data-success": "Valid email address"
+    }
+  }, [_vm._v("Email")])])]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "input-field col s12 m12"
+  }, [_c('i', {
+    staticClass: "material-icons prefix"
+  }, [_vm._v("message")]), _vm._v(" "), _c('textarea', {
+    staticClass: "materialize-textarea",
+    attrs: {
+      "id": "message"
+    }
+  }), _vm._v(" "), _c('label', {
+    attrs: {
+      "for": "message"
+    }
+  }, [_vm._v("Message")])])]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "input-field col s12 m12"
+  }, [_c('button', {
+    staticClass: "btn waves-effect \twaves-light right",
+    attrs: {
+      "type": "submit",
+      "name": "action"
+    }
+  }, [_vm._v("Submit\n    \t\t"), _c('i', {
+    staticClass: "material-icons right"
+  }, [_vm._v("send")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "row address"
+  }, [_c('div', {
+    staticClass: "col s12 m4"
+  }, [_c('h4', [_vm._v("\n    \t\t   \tCome and visit Rhodora Bed and Breakfast. \n\t\t\t\t")]), _vm._v(" "), _c('h4', [_vm._v("\n    \t\t   \tFor bookings, pls contact 0947-8969558.\n    \t\t   ")]), _vm._v(" "), _c('h5', [_vm._v("Weekly and Montly Rates are also available!")]), _vm._v(" "), _c('p', [_vm._v("187 Jayme Building, S. B. Cabahug St., Ibabao Mandaue City, Cebu 6014")])])])])])])
+}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -685,6 +832,31 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ "Zs8U":
 /***/ (function(module, exports) {
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -926,4 +1098,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.cf308462ebdea2af16b8.js.map
+//# sourceMappingURL=app.72892f5fe17e89e342f4.js.map

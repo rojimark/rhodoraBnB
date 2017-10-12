@@ -45,7 +45,7 @@
           </div>
           <div class="footer-copyrightaw">
             <div class="container">
-            © 2017 Copyright Text
+            © 2017 Rhodora Bed and Breakfast. All Rights Reserved.
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
