@@ -106,7 +106,7 @@
   color: gray;
 }
   .divider{
-    background: url(//sonyasgarden.com/wp-content/themes/theme-sonyasgarden/css/../images/divider.png)no-repeat center center;
+    background: url(../assets/divider.png)no-repeat center center;
       display: block;
       max-width: 440px;
       width: 100%;
