@@ -2,7 +2,7 @@
 	<div class="about">
 			
 		<h2>Are you visiting the Queen City of the South - Cebu? </h2>
-
+	<span class="divider"></span>
 <h6>
 	Take a few minutes ride from the airport and relax at this very affordable yet classy mix of Modern and Spanish. Experience this authentic Hispanic ancestral house of that offers a homey ambiance for all its guests. 
 </h6>
@@ -55,5 +55,13 @@
 	h2{
 		color: gray;
 		font-family: 'Niconne', cursive;
+	}
+	.divider{
+		background: url(//sonyasgarden.com/wp-content/themes/theme-sonyasgarden/css/../images/divider.png)no-repeat center center;
+    	display: block;
+    	max-width: 440px;
+    	width: 100%;
+    	height: 23px;
+    	margin: 20px auto 0;
 	}
 </style>
