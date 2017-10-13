@@ -19,7 +19,9 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "rooms"
   }, [_c('div', {
     staticClass: "roomintro"
-  }, [_c('h3', [_vm._v("Take a peek at each of our rooms.")]), _vm._v(" "), _c('h3', [_vm._v(" Whichever one you choose assures utter comfort we believe you deserve to have.\n      ")])]), _vm._v(" "), _c('div', {
+  }, [_c('h3', [_vm._v("Take a peek at each of our rooms.")]), _vm._v(" "), _c('h3', [_vm._v(" Whichever one you choose assures utter comfort we believe you deserve to have.\n      ")]), _vm._v(" "), _c('span', {
+    staticClass: "divider"
+  })]), _vm._v(" "), _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col s12 m6"
@@ -139,6 +141,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ "0iGR":
 /***/ (function(module, exports) {
 
+//
 //
 //
 //
@@ -479,6 +482,7 @@ module.exports = __webpack_require__.p + "static/img/SampleRoom3.c0d0d48.jpg";
 //
 //
 //
+//
 
 /***/ }),
 
@@ -620,7 +624,9 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "about"
-  }, [_c('h2', [_vm._v("Are you visiting the Queen City of the South - Cebu? ")]), _vm._v(" "), _c('h6', [_vm._v("\n\tTake a few minutes ride from the airport and relax at this very affordable yet classy mix of Modern and Spanish. Experience this authentic Hispanic ancestral house of that offers a homey ambiance for all its guests. \n")]), _vm._v(" "), _c('h5', [_vm._v("INTRODUCTION")]), _vm._v(" "), _c('p', [_vm._v("\n\t Rhodora Bed and Breakfast is a story awaiting your unraveling – your story. It begins the moment you set foot on the resort where smiling, friendly, and hospitality celebrate your arrival. How each page turns is your call. Set in lush, tropical greenery, you have found the right place to unwind and let the aesthetic scenery soothe your senses. Anika offers a good variety of options for you to live your story that you want to tell and re-tell.\n")]), _vm._v(" "), _c('h5', [_vm._v("BACKGROUND")]), _vm._v(" "), _c('p', [_vm._v("\n\tRhodora Bed and Breakfast is owned by a family who acquired the property.  Through the years, the family had often used the property for private gatherings and functions with and for friends. However, they eventually thought the place was too good not to share. So began the concept of opening a commercial apartel.\n\tThe owner wanted to develop their property that would reflect their support to environment conservation with a concept that would harmoniously mix both quaint and modern fixtures. They came up with a lay-out of air-conditioned rooms fashioned from up-cycled cargo containers. It has been designed to withstand natural calamities such as typhoons and earthquakes.\n\t\n")]), _vm._v(" "), _c('h5', [_vm._v("OUR COMMITMENT")]), _vm._v(" "), _c('p', [_vm._v("\n\tWe are committed to the principles of integrity, professionalism and excellence in all our undertakings. We recognize our responsibility to enhance and promote the development of our people, community and environment.\n\tAll of our employees are dedicated to keeping our guest’s getaways generate a lifetime of wonderful memories.\n")]), _vm._v(" "), _c('p'), _vm._v(" "), _c('iframe', {
+  }, [_c('h2', [_vm._v("Are you visiting the Queen City of the South - Cebu? ")]), _vm._v(" "), _c('span', {
+    staticClass: "divider"
+  }), _vm._v(" "), _c('h6', [_vm._v("\n\tTake a few minutes ride from the airport and relax at this very affordable yet classy mix of Modern and Spanish. Experience this authentic Hispanic ancestral house of that offers a homey ambiance for all its guests. \n")]), _vm._v(" "), _c('h5', [_vm._v("INTRODUCTION")]), _vm._v(" "), _c('p', [_vm._v("\n\t Rhodora Bed and Breakfast is a story awaiting your unraveling – your story. It begins the moment you set foot on the resort where smiling, friendly, and hospitality celebrate your arrival. How each page turns is your call. Set in lush, tropical greenery, you have found the right place to unwind and let the aesthetic scenery soothe your senses. Anika offers a good variety of options for you to live your story that you want to tell and re-tell.\n")]), _vm._v(" "), _c('h5', [_vm._v("BACKGROUND")]), _vm._v(" "), _c('p', [_vm._v("\n\tRhodora Bed and Breakfast is owned by a family who acquired the property.  Through the years, the family had often used the property for private gatherings and functions with and for friends. However, they eventually thought the place was too good not to share. So began the concept of opening a commercial apartel.\n\tThe owner wanted to develop their property that would reflect their support to environment conservation with a concept that would harmoniously mix both quaint and modern fixtures. They came up with a lay-out of air-conditioned rooms fashioned from up-cycled cargo containers. It has been designed to withstand natural calamities such as typhoons and earthquakes.\n\t\n")]), _vm._v(" "), _c('h5', [_vm._v("OUR COMMITMENT")]), _vm._v(" "), _c('p', [_vm._v("\n\tWe are committed to the principles of integrity, professionalism and excellence in all our undertakings. We recognize our responsibility to enhance and promote the development of our people, community and environment.\n\tAll of our employees are dedicated to keeping our guest’s getaways generate a lifetime of wonderful memories.\n")]), _vm._v(" "), _c('p'), _vm._v(" "), _c('iframe', {
     staticStyle: {
       "border": "0"
     },
@@ -750,7 +756,9 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
   return _vm._m(0)
 }
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
+  return _c('div', [_c('span', {
+    staticClass: "divider"
+  }), _vm._v(" "), _c('div', {
     staticClass: "contact-form"
   }, [_c('div', {
     staticClass: "row"
@@ -1098,4 +1106,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.72892f5fe17e89e342f4.js.map
+//# sourceMappingURL=app.2e1da86925f9b948e1bf.js.map

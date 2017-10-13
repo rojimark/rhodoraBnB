@@ -4,6 +4,7 @@
        <h3>Take a peek at each of our rooms.</h3>
        <h3> Whichever one you choose assures utter comfort we believe you deserve to have.
       </h3>
+      <span class="divider"></span>
   </div>
  
 	<div class="row">
@@ -104,5 +105,13 @@
   font-family: 'Niconne', cursive;
   color: gray;
 }
+  .divider{
+    background: url(//sonyasgarden.com/wp-content/themes/theme-sonyasgarden/css/../images/divider.png)no-repeat center center;
+      display: block;
+      max-width: 440px;
+      width: 100%;
+      height: 23px;
+      margin: 20px auto 0;
+  }
 
 </style>

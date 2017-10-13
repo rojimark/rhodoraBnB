@@ -1,5 +1,6 @@
 <template>
 <div>
+  <span class="divider"></span>
 	<div class="contact-form">
 		<div class="row">
     		<form class="col s12 m8">
@@ -93,5 +94,12 @@
 	font-family: 'Niconne', cursive;
 }
 
-
+  .divider{
+    background: url(//sonyasgarden.com/wp-content/themes/theme-sonyasgarden/css/../images/divider.png)no-repeat center center;
+      display: block;
+      max-width: 440px;
+      width: 100%;
+      height: 23px;
+      margin: 20px auto 0;
+  }
 </style>
