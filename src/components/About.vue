@@ -27,7 +27,7 @@
 	We are committed to the principles of integrity, professionalism and excellence in all our undertakings. We recognize our responsibility to enhance and promote the development of our people, community and environment.
 	All of our employees are dedicated to keeping our guest’s getaways generate a lifetime of wonderful memories.
 </p>
-
+<span class="divider"></span>
 
 </p>
 		<iframe

@@ -87,7 +87,7 @@
     </div>
   </div>
 </div>
-
+<span class="divider"></span>
 </div>
 </div>
   
