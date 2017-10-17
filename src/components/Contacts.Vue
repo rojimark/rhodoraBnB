@@ -7,7 +7,7 @@
       			<div class="row">
         			<div class="input-field col s12 m12">
         			 <i class="material-icons prefix">account_circle</i>
-          				<input placeholder="" id="name" type="text" class="validate">
+          				<input placeholder="" id="name" type="text" class="validate" required="">
          			 	<label for="name">Name</label>
        				 </div>
        			</div>
@@ -21,7 +21,7 @@
       <div class="row">
         <div class="input-field col s12 m12">
         	<i class="material-icons prefix">email</i>
-          <input id="email" type="email" class="validate">
+          <input id="email" type="email" class="validate" required>
           <label for="email" data-error="Invalid email address" data-success="Valid email address">Email</label>
         </div>
       </div>
