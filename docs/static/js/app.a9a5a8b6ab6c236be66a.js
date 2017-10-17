@@ -779,7 +779,8 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     attrs: {
       "placeholder": "",
       "id": "name",
-      "type": "text"
+      "type": "text",
+      "required": ""
     }
   }), _vm._v(" "), _c('label', {
     attrs: {
@@ -795,7 +796,8 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "validate",
     attrs: {
       "id": "email",
-      "type": "email"
+      "type": "email",
+      "required": ""
     }
   }), _vm._v(" "), _c('label', {
     attrs: {
@@ -1110,4 +1112,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.ecf09aad75278cdcb82b.js.map
+//# sourceMappingURL=app.a9a5a8b6ab6c236be66a.js.map
