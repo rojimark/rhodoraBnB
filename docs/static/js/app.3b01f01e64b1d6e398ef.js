@@ -141,8 +141,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ }),
 
 /***/ "0iGR":
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 //
 //
 //
@@ -225,6 +226,33 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data() {
+    return {
+      submitted: false
+
+    };
+  },
+
+  methods: {
+    form_on: function () {
+
+      this.submitted = false;
+    },
+
+    form_off: function () {
+      this.submitted = true;
+    }
+  }
+});
 
 /***/ }),
 
@@ -653,7 +681,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contacts_vue__ = __webpack_require__("0iGR");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contacts_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contacts_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_743df423_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_vue_loader_lib_selector_type_template_index_0_Contacts_vue__ = __webpack_require__("X+4S");
 function injectStyle (ssrContext) {
   __webpack_require__("iUFV")
@@ -670,7 +697,7 @@ var __vue_scopeId__ = "data-v-743df423"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contacts_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Contacts_vue__["a" /* default */],
   __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_743df423_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_vue_loader_lib_selector_type_template_index_0_Contacts_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
@@ -757,18 +784,46 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', [_c('span', {
     staticClass: "divider"
-  }), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), (_vm.submitted) ? _c('div', {
+    staticClass: "success"
+  }, [_c('h3', [_vm._v("Your message has been sent! Thank you for getting in touch.")]), _vm._v(" "), _c('button', {
+    staticClass: "btn",
+    on: {
+      "click": function($event) {
+        $event.preventDefault();
+        _vm.form_on($event)
+      }
+    }
+  }, [_vm._v("Back")])]) : _vm._e(), _vm._v(" "), (!_vm.submitted) ? _c('div', {
     staticClass: "contact-form"
   }, [_c('div', {
     staticClass: "row"
   }, [_c('form', {
     staticClass: "col s12 m8"
+  }, [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('div', {
+    staticClass: "row"
   }, [_c('div', {
+    staticClass: "input-field col s12 m12"
+  }, [_c('button', {
+    staticClass: "btn waves-effect \twaves-light right",
+    attrs: {
+      "type": "submit",
+      "name": "action"
+    },
+    on: {
+      "click": function($event) {
+        $event.preventDefault();
+        _vm.form_off($event)
+      }
+    }
+  }, [_vm._v("Submit\n    \t\t"), _c('i', {
+    staticClass: "material-icons right"
+  }, [_vm._v("send")])])])])]), _vm._v(" "), _vm._m(3)])]) : _vm._e()])
+}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "input-field col s12 m12"
@@ -786,7 +841,9 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     attrs: {
       "for": "name"
     }
-  }, [_vm._v("Name")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Name")])])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "input-field col s12 m12"
@@ -805,7 +862,9 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
       "data-error": "Invalid email address",
       "data-success": "Valid email address"
     }
-  }, [_vm._v("Email")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Email")])])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "row"
   }, [_c('div', {
     staticClass: "input-field col s12 m12"
@@ -820,23 +879,13 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     attrs: {
       "for": "message"
     }
-  }, [_vm._v("Message")])])]), _vm._v(" "), _c('div', {
-    staticClass: "row"
-  }, [_c('div', {
-    staticClass: "input-field col s12 m12"
-  }, [_c('button', {
-    staticClass: "btn waves-effect \twaves-light right",
-    attrs: {
-      "type": "submit",
-      "name": "action"
-    }
-  }, [_vm._v("Submit\n    \t\t"), _c('i', {
-    staticClass: "material-icons right"
-  }, [_vm._v("send")])])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Message")])])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "row address"
   }, [_c('div', {
     staticClass: "col s12 m4"
-  }, [_c('h4', [_vm._v("\n    \t\t   \tCome and visit Rhodora Bed and Breakfast. \n\t\t\t\t")]), _vm._v(" "), _c('h4', [_vm._v("\n    \t\t   \tFor bookings, pls contact 0947-8969558.\n    \t\t   ")]), _vm._v(" "), _c('h5', [_vm._v("Weekly and Montly Rates are also available!")]), _vm._v(" "), _c('p', [_vm._v("187 Jayme Building, S. B. Cabahug St., Ibabao Mandaue City, Cebu 6014")])])])])])])
+  }, [_c('h4', [_vm._v("\n    \t\t   \tCome and visit Rhodora Bed and Breakfast. \n\t\t\t\t")]), _vm._v(" "), _c('h4', [_vm._v("\n    \t\t   \tFor bookings, pls contact 0947-8969558.\n    \t\t   ")]), _vm._v(" "), _c('h5', [_vm._v("Weekly and Montly Rates are also available!")]), _vm._v(" "), _c('p', [_vm._v("187 Jayme Building, S. B. Cabahug St., Ibabao Mandaue City, Cebu 6014")])])])
 }]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -1112,4 +1161,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.a9a5a8b6ab6c236be66a.js.map
+//# sourceMappingURL=app.3b01f01e64b1d6e398ef.js.map
