@@ -1,7 +1,14 @@
 <template>
 <div>
+
   <span class="divider"></span>
-	<div class="contact-form">
+
+    <div class ="success" v-if="submitted">
+    <h3>Your message has been sent! Thank you for getting in touch.</h3>
+    <button class="btn" v-on:click.prevent="form_on">Back</button>
+    </div>
+
+	<div class="contact-form" v-if="!submitted">
 		<div class="row">
     		<form class="col s12 m8">
       			<div class="row">
@@ -38,7 +45,7 @@
 
       <div class="row">
         <div class="input-field col s12 m12">
-         <button class="btn waves-effect 	waves-light right" type="submit" name="action">Submit
+         <button class="btn waves-effect 	waves-light right" type="submit" name="action" v-on:click.prevent="form_off">Submit
     		<i class="material-icons right">send</i>
   		</button>
         </div>
@@ -81,7 +88,26 @@
 </template>
 
 <script>
-	
+	export default {
+  data(){
+    return{
+      submitted: false
+      
+    }
+  },
+
+  methods: {
+    form_on : function(){
+      
+        this.submitted = false;
+    },
+    
+
+    form_off: function(){
+      this.submitted = true;
+    }
+  }
+}
 
 </script>
 
@@ -101,5 +127,8 @@
       width: 100%;
       height: 23px;
       margin: 20px auto 0;
+  }
+  .success{
+    padding: 50px;
   }
 </style>
