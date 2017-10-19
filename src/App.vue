@@ -17,7 +17,7 @@
         <li><a><router-link to='/' exact>Home</router-link></a></li>
         <li><a href="#"><router-link to='/about' exact>About</router-link></a></li>
         <li><a href="#"><router-link to='/rooms' exact>Rooms</router-link></a></li>
-        <li><a href="#"><router-link to='/contacts' exact>Contacts</router-link></a></li>
+        <li><a href="#"><router-link to='/contacts' exact>Contacts Us</router-link></a></li>
       </ul>
     </div>
   </nav>
@@ -35,10 +35,10 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Rooms</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><router-link to='/' exact>Home</router-link></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><router-link to='/about' exact>About</router-link></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><router-link to='/rooms' exact>Rooms</router-link></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><router-link to='/contacts' exact>Contacts Us</router-link></a></li>
                 </ul>
               </div>
             </div>
@@ -96,6 +96,11 @@ h4{
   margin-top: 0px;
   font-size: 48px;
   font-family: 'Niconne', cursive;
+}
+
+li a{
+  text-decoration-color: white;
+  color: white;
 }
 
 </style>
