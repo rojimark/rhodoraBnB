@@ -329,7 +329,57 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       "to": "/contacts",
       "exact": ""
     }
-  }, [_vm._v("Contacts")])], 1)])])])])]), _vm._v(" "), _c('router-view'), _vm._v(" "), _vm._m(1)], 1)
+  }, [_vm._v("Contacts Us")])], 1)])])])])]), _vm._v(" "), _c('router-view'), _vm._v(" "), _c('footer', {
+    staticClass: "page-footer teal"
+  }, [_c('div', {
+    staticClass: "container"
+  }, [_c('div', {
+    staticClass: "row"
+  }, [_vm._m(1), _vm._v(" "), _c('div', {
+    staticClass: "col l4 offset-l2 s12"
+  }, [_c('h5', {
+    staticClass: "white-text"
+  }, [_vm._v("Links")]), _vm._v(" "), _c('ul', [_c('li', [_c('a', {
+    staticClass: "grey-text text-lighten-3",
+    attrs: {
+      "href": "#!"
+    }
+  }, [_c('router-link', {
+    attrs: {
+      "to": "/",
+      "exact": ""
+    }
+  }, [_vm._v("Home")])], 1)]), _vm._v(" "), _c('li', [_c('a', {
+    staticClass: "grey-text text-lighten-3",
+    attrs: {
+      "href": "#!"
+    }
+  }, [_c('router-link', {
+    attrs: {
+      "to": "/about",
+      "exact": ""
+    }
+  }, [_vm._v("About")])], 1)]), _vm._v(" "), _c('li', [_c('a', {
+    staticClass: "grey-text text-lighten-3",
+    attrs: {
+      "href": "#!"
+    }
+  }, [_c('router-link', {
+    attrs: {
+      "to": "/rooms",
+      "exact": ""
+    }
+  }, [_vm._v("Rooms")])], 1)]), _vm._v(" "), _c('li', [_c('a', {
+    staticClass: "grey-text text-lighten-3",
+    attrs: {
+      "href": "#!"
+    }
+  }, [_c('router-link', {
+    attrs: {
+      "to": "/contacts",
+      "exact": ""
+    }
+  }, [_vm._v("Contacts Us")])], 1)])])])])]), _vm._v(" "), _vm._m(2)])], 1)
 }
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
@@ -340,43 +390,15 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     staticClass: "fa fa-facebook-square fa-3x"
   })])
 },function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('footer', {
-    staticClass: "page-footer teal"
-  }, [_c('div', {
-    staticClass: "container"
-  }, [_c('div', {
-    staticClass: "row"
-  }, [_c('div', {
+  return _c('div', {
     staticClass: "col l6 s12"
   }, [_c('h5', {
     staticClass: "white-text"
   }, [_vm._v("Rhodora Bed and Breakfast")]), _vm._v(" "), _c('p', {
     staticClass: "grey-text text-lighten-4"
-  }, [_vm._v("187 Jayme Building, S. B. Cabahug St., Ibabao\n                Mandaue City")])]), _vm._v(" "), _c('div', {
-    staticClass: "col l4 offset-l2 s12"
-  }, [_c('h5', {
-    staticClass: "white-text"
-  }, [_vm._v("Links")]), _vm._v(" "), _c('ul', [_c('li', [_c('a', {
-    staticClass: "grey-text text-lighten-3",
-    attrs: {
-      "href": "#!"
-    }
-  }, [_vm._v("Home")])]), _vm._v(" "), _c('li', [_c('a', {
-    staticClass: "grey-text text-lighten-3",
-    attrs: {
-      "href": "#!"
-    }
-  }, [_vm._v("About")])]), _vm._v(" "), _c('li', [_c('a', {
-    staticClass: "grey-text text-lighten-3",
-    attrs: {
-      "href": "#!"
-    }
-  }, [_vm._v("Rooms")])]), _vm._v(" "), _c('li', [_c('a', {
-    staticClass: "grey-text text-lighten-3",
-    attrs: {
-      "href": "#!"
-    }
-  }, [_vm._v("Contact Us")])])])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("187 Jayme Building, S. B. Cabahug St., Ibabao\n                Mandaue City")])])
+},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "footer-copyrightaw"
   }, [_c('div', {
     staticClass: "container"
@@ -385,7 +407,7 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     attrs: {
       "href": "#!"
     }
-  }, [_vm._v("More Links")])])])])
+  }, [_vm._v("More Links")])])])
 }]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -1161,4 +1183,4 @@ module.exports = __webpack_require__.p + "static/img/RhodoraLogo.f34accb.jpg";
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.3b01f01e64b1d6e398ef.js.map
+//# sourceMappingURL=app.8f2946ba52e855aa65da.js.map
